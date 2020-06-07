@@ -21,7 +21,8 @@ const useStyles = makeStyles(theme => ({
 		alignItems: 'center',
 		paddingLeft: 20,
         paddingRight: 20,
-        cursor: 'pointer'
+        cursor: 'pointer',
+        zIndex: 10,
 	},
 	menuDivider: {
 		marginLeft: 3,

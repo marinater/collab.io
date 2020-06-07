@@ -22,7 +22,7 @@ export const ProjectBar: React.FC<{className: string}> = ({ className }) => {
 		<div className={classNames(className, classes.root)}>
 			<Header/>
 			<Channels/>
-			<Controls/>
+			<Controls name='marinater' id='#6555'/>
 		</div>
 	)
 }

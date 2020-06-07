@@ -55,7 +55,9 @@ export const ProjectIcon: React.FC<ProjectIconProps> = ({description, onClick, v
 
 	return (
 		<Tooltip
-			classes={toolTipClasses}
+            classes={toolTipClasses}
+            placement='right'
+            arrow
 			title={
 				<React.Fragment>
 					<Typography color="inherit" variant="h6" noWrap> {description.label} </Typography>

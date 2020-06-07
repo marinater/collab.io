@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 		display: 'flex'
 	},
 	projectsBar: {
-		width: 70,
+		width: 71,
 		height: '100%'
 	},
 	projectBar: {
